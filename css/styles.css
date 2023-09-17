@@ -1,0 +1,167 @@
+body {
+font-family: 'Montserrat', sans-serif;
+background: #FAFAFA;
+}
+
+/*======HEADER======*/
+.header {}
+
+.header-navigation {}
+
+.header-logo {
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11x;
+    letter-spacing: -0.03em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-logo-italic {
+    font-style: italic;
+}
+
+.logo-img {}
+
+.header-menu-list {}
+
+.list {
+    list-style: none;
+}
+
+.header-menu-item {}
+
+.header-menu-link {
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
+    color: #fd9222;
+    text-decoration: underline;
+}
+
+.header-social-list {}
+
+.header-social-item {}
+
+.header-social-link {}
+
+.header-social-img {}
+/*===================*/
+
+/*======MAIN======*/
+.main {}
+
+/*======START-PAGE======*/
+
+.start-page {
+   
+    background: rgba(17, 17, 17, 0.60);
+}
+
+.start-page-title {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+}
+
+.page-buy-btn {
+    color: #FFF;
+        font-family: inherit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 100px;
+        background: #FD9222;
+        cursor: pointer;
+}
+
+.page-buy-btn:hover,
+.page-buy-btn:focus,
+.page-buy-btn:active {
+color: #FD9222;
+background: #FCF1E0;
+}
+
+.page-how-btn {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    
+    display: inline-flex;
+        padding: 14px 40px;
+        align-items: flex-start;
+        gap: 14px;
+}
+
+.page-how-btn:hover,
+.page-how-btn:focus,
+.page-how-btn:active {
+color: #FD9222;
+border: 1px solid #FD9222;
+}
+
+.page-scroll-btn {
+    color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.29;
+        letter-spacing: -0.03em;
+        cursor: pointer;
+}
+.page-scroll-btn:hover,
+.page-scroll-btn:focus,
+.page-scroll-btn:active {
+color: #FD9222;
+}
+/*=====================*/
+
+/*======BENEFITS======*/
+
+/*===============================*/
+
+/*======INGRIDIENTS======*/
+
+/*==============================*/
+
+/*======MADE======*/
+
+/*====================================*/
+
+/*======PRODUCTS======*/
+
+/*==================================*/
+
+/*======TOP======*/
+
+/*=============================*/
+
+/*======LOVED======*/
+
+/*================================*/
+
+/*==================================*/
+
+/*======FOOTER======*/
+
+/*=====================*/
