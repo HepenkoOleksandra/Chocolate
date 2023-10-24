@@ -3,6 +3,49 @@ font-family: 'Montserrat', sans-serif;
 background: #FAFAFA;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 /*======HEADER======*/
 .header {}
 
@@ -16,9 +59,7 @@ background: #FAFAFA;
     letter-spacing: -0.03em;
 }
 
-.link {
-    text-decoration: none;
-}
+
 
 .header-logo-italic {
     font-style: italic;
@@ -28,9 +69,7 @@ background: #FAFAFA;
 
 .header-menu-list {}
 
-.list {
-    list-style: none;
-}
+
 
 .header-menu-item {}
 
@@ -62,7 +101,7 @@ background: #FAFAFA;
 /*======MAIN======*/
 .main {}
 
-/*======START-PAGE======*/
+/*======START-PAGE======
 
 .start-page {
    
@@ -137,6 +176,75 @@ color: #FD9222;
 /*=====================*/
 
 /*======BENEFITS======*/
+
+.benefits {
+    background: #1E1823;
+}
+
+.section {}
+
+.benefits-container {}
+
+.container {
+    width: 100%;
+    max-width: 335px;
+    padding: 0 20px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 36px;
+}
+
+.benefits-item {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-right: 28px;
+}
+
+.benefits-container-icon {
+    width: 62px;
+    height: 62px;
+    border-radius: 365px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+        
+}
+
+.benefits-item-icon {
+    fill: #fd9222;
+}
+
+.benefits-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    
+
+}
+
+.benefits-item-subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+.benefits-item-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
 
 /*===============================*/
 
